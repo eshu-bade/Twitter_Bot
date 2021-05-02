@@ -21,6 +21,7 @@ If the above command throws error, try replacing pip3 with pip, that should work
 # Files and contents
 
 my_bot_Iham.py - The main file that has the code and the logic.
+
 last_seen_id.txt - A text file to store the last seen ID of the tweet. If you see any error while running the main file, try inserting the ID of the tweets(ex:1388753791234589667) that you want to examine.
 
 keys.py - The content in this file should not be used in the main file. Store this file in the same folder and fill the Access tokens and API keys of your developer account. The main code was writter in such a way that it would take the information from the keys.py and access it.
